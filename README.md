@@ -2,6 +2,8 @@
 
 > Next.js eCommerce entitled ShopCo
 
+![Shop.Co](screenshot.png)
+
 **Shopco** is an open-source project that converts a Figma design of an e-commerce website into a fully responsive front-end application.
 
 It utilizes **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux**, **Framer Motion**, and **ShadCN UI** to deliver a modern, scalable, and optimized solution based on industry standards.
@@ -19,7 +21,7 @@ npm: 10.8.2
 
 ### Demo
 
-Check out the live demo: [Shopco Demo](https://next-ecommerce-shopco.vercel.app/)
+Check out the live demo: [ShopCo Demo](https://next-shopco.vercel.app/)
 
 ### Features
 
@@ -41,7 +43,7 @@ Check out the live demo: [Shopco Demo](https://next-ecommerce-shopco.vercel.app/
 - **Redux** - A state management library used for the shopping cart and global app state.
 - **Framer Motion** - A library for animations and interactions in React.
 - **ShadCN UI** - A collection of beautiful, accessible, and customizable UI components.
-- **Figma** - The design tool used as the source of the project’s layout. The [Figma file](https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie) designed by [Hamza Naeem](https://www.figma.com/@hamzauix)
+- **Figma** - The design tool used as the source of the project’s layout: The [Figma file](https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie)
 
 ## Getting Started
 
@@ -50,7 +52,7 @@ To get started with Shopco locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone [GITHUB_REPO_URL]
+   git clone https://github.com/codeguru827/next-shopco.git
 
    cd next-ecommerce-shopco
    ```
@@ -61,18 +63,10 @@ To get started with Shopco locally, follow these steps:
    npm install
    ```
 
-   ```bash
-   yarn install
-   ```
-
 3. **Run the development server:**
 
    ```bash
    npm run dev
-   ```
-
-   ```bash
-   yarn dev
    ```
 
 4. **Open in your browser:**
@@ -87,7 +81,7 @@ To get started with Shopco locally, follow these steps:
 
 ### Project Structure
 
-```bash
+```yaml
 Shopco/
 │
 ├── public/                # Static assets
